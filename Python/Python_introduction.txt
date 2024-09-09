@@ -3,16 +3,24 @@ Installing Python:
     In Linux OS:  https://www.python.org/download/other/
     In Mac OS:  https://www.python.org/downloads/macos/
     All OS: https://python.land/installing-python
+    
 Installing Git in window
     https://git-scm.com/download/win
-    
+
 Python In Command Shell
     Python version
         python --version
-        python -V 
+        python -V
+    Entering to python
+        python
+    Existing to Command Shell
+        exit()
+    
     python as calculator
     python input/output
+        input -> input()
     python f string for output
+        print(f"Name:{name}\nAge:{age}")
 
 Python in Script mode
     Python file name and extension
@@ -20,9 +28,20 @@ Python in Script mode
     print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
     Python variables
         Rules for Naming variables
+            4 Rules
         local and global variables
+            local variables defined and accessible inside function
+            global variables defined at top and accessible from anywhere from program
+            
         casing in python
+            camel 
+            pascal
+            snake
     Python Data Types
+        <class 'int'> integer
+        <class 'float'> decimal point
+        <class 'str'> string/ char/ null
+        <class 'complex'> complex number
     Python operators
     python if, if-else, if-elif-else
     python loop for and while
