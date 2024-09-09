@@ -1,0 +1,32 @@
+Installing Python:
+    In Window OS:  https://www.python.org/downloads/windows/
+    In Linux OS:  https://www.python.org/download/other/
+    In Mac OS:  https://www.python.org/downloads/macos/
+    All OS: https://python.land/installing-python
+Installing Git in window
+    https://git-scm.com/download/win
+    
+Python In Command Shell
+    Python version
+        python --version
+        python -V 
+    python as calculator
+    python input/output
+    python f string for output
+
+Python in Script mode
+    Python file name and extension
+    name = input("Enter your name: ")
+    print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+    Python variables
+        Rules for Naming variables
+        local and global variables
+        casing in python
+    Python Data Types
+    Python operators
+    python if, if-else, if-elif-else
+    python loop for and while
+
+
+
+
