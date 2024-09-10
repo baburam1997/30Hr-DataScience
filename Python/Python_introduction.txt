@@ -43,8 +43,18 @@ Python in Script mode
         <class 'str'> string/ char/ null
         <class 'complex'> complex number
     Python operators
-    python if, if-else, if-elif-else
+        types of operators
+
+    python if, if-else, if-elif-else (conditional Statments)
+        if
+        if-else
+        if-elif-else 
+        nested if-else
+
     python loop for and while
+        for
+        for with range
+        while
 
 
 
