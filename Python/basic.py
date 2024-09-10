@@ -34,7 +34,6 @@
 
 # print(sum) # generates error
 
-
 # def add(a,b):
 #     sum=a+b
 #     # return sum
@@ -42,6 +41,7 @@
 # addition = add(2,8)
 # print(addition)
 # Arithmetic Operators
+
 n1 = 5
 n2 = 4
 # print(n1+n2) # 9
