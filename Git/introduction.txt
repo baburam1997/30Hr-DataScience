@@ -1,0 +1,10 @@
+Git
+    version control (python3.7 -> paython 3.10)
+
+GitHub / bitbucket / gitlab
+    website/web portal github.com
+
+    
+    https://github.com/
+    https://about.gitlab.com/
+    https://bitbucket.org/product/
