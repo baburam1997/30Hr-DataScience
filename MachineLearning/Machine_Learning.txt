@@ -1,0 +1,48 @@
+Machine Learning
+├── SupervisedLearning
+│   ├── Classification
+│   │   ├── DecisionTrees
+│   │   ├── GradientBoostingMachines
+│   │   ├── k-NearestNeighbours(k-NN)
+│   │   ├── LogisticRegression
+│   │   ├── NaiveBayes
+│   │   ├── NeuralNetworks
+│   │   │   ├── ConvolutionalNeuralNetworks(CNNs)
+│   │   │   ├── FeedforwardNeuralNetworks(FNNs)
+│   │   │   ├── GenerativeAdversarialNetworks(GANs)
+│   │   │   ├── RecurrentNeuralNetworks(RNNs)
+│   │   │   │   ├── GatedRecurrentUnits(GRU)
+│   │   │   │   └── LongShort-TermMemory(LSTM)
+│   │   │   └── Transformers
+│   │   ├── RandomForests
+│   │   └── SupportVectorMachines(SVM)
+│   └── Regression
+│       ├── LassoRegression
+│       ├── LinearRegression
+│       ├── PolynomialRegression
+│       └── RidgeRegression
+|── SemiSupervisedLearning
+│   ├── Co-Training
+│   ├── Multi-ViewLearning
+│   └── Self-Training
+|── UnSupervisedLearning
+|    ├── AssociationRuleLearning
+|    │   ├── AprioriAlgorithm
+|    │   └── EclatAlgorithm
+|    ├── Clustering
+|    │   ├── DBSCAN
+|    │   ├── HierarchicalClustering
+|    │   ├── K-MeansClustering
+|    │   └── MeanShift
+|    └── DimensionalityReduction
+|        ├── LinearDiscriminantAnalysis (LDA)
+|        ├── PrincipalComponentAnalysis (PCA)
+|        └── t-DistributedStochasticNeighborEmbedding(t-SNE)
+|── ReinforcementLearning
+   ├── ModelBasedMethods
+   ├── Model-FreeMethods
+   │   ├── DeepQ-Network(DQN)
+   │   └── Q-Learning
+   └── PolicyGradientMethods
+       ├── Actor-CriticMethods
+       └── REINFORCE

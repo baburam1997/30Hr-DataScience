@@ -1,0 +1,99 @@
+
+Machine Learning
+    1. Supervised Learning: 
+        Defn: Supervised learning involves training a model on labeled data.
+        1.1 Classification
+            Defn: Classification is used to assign data into predefined categories.
+            Decision Trees: 
+                Defn: A tree-like structure used for decision making.
+                Example: Predicting whether a customer will buy a product (yes/no).
+                Use Case: Customer segmentation in marketing.
+            Logistic Regression: 
+                Defn: A regression model used for binary classification.
+                Example: Classifying whether an email is spam or not.
+                Use Case: Email filtering.
+            Neural Networks (Feedforward Neural Networks): 
+                Defn: Layers of neurons used for complex classification problems.
+                Example: Handwriting recognition.
+                Use Case: Digit classification for postal code recognition.
+
+        1.2 Regression
+            Defn: Regression is used for predicting continuous values.
+            Linear Regression: 
+                Defn: Models the relationship between two variables by fitting a linear equation.
+                Example: Predicting house prices based on features.
+                Use Case: Real estate price forecasting.
+            Ridge Regression: 
+                Defn: Linear regression with regularization to prevent overfitting.
+                Example: Predicting sales figures of a company.
+                Use Case: Sales forecasting with high-dimensional data.
+            Polynomial Regression: 
+                Defn: A type of regression where the relationship is modeled as an nth-degree polynomial.
+                Example: Predicting the trajectory of a projectile.
+                Use Case: Physics simulations for trajectory modeling.
+
+    2. Semi-Supervised Learning
+        Defn: Semi-supervised learning uses both labeled and unlabeled data for training.
+        Co-Training: 
+            Defn: Multiple classifiers are trained on different feature sets, and they iteratively label unlabeled data for each other.
+            Example: Classifying web pages into categories.
+            Use Case: Web page categorization using a small set of labeled examples.
+        Multi-View Learning: 
+            Defn: Learning from different views or feature sets of the same data.
+            Example: Image and text combined for visual search engines.
+            Use Case: Multimodal search (image + text search engines).
+        Self-Training: 
+            Defn: A model is trained on labeled data and then labels its own unlabeled data iteratively.
+            Example: Spam email detection with a limited amount of labeled data.
+            Use Case: Spam filtering with minimal human annotation.
+
+    3. Unsupervised Learning
+        Defn: Unsupervised learning is used when the data is unlabeled, and the goal is to find hidden structures.
+        3.1 Clustering
+            Defn: Clustering groups similar data points together.
+            K-Means Clustering: 
+                Defn: Partitions data into k clusters based on distance to the nearest centroid.
+                Example: Segmenting customers based on purchasing behavior.
+                Use Case: Customer segmentation in retail.
+            DBSCAN: 
+                Defn: A density-based clustering algorithm.
+                Example: Identifying geographical areas with high pollution.
+                Use Case: Geospatial analysis for pollution hotspots.
+            Hierarchical Clustering: 
+                Defn: Clustering data into a tree of clusters.
+                Example: Grouping genes with similar expressions.
+                Use Case: Bioinformatics for gene analysis.
+
+        3.2 Dimensionality Reduction
+            Defn: Dimensionality reduction techniques reduce the number of variables in the dataset.
+            Principal Component Analysis (PCA): 
+                Defn: Reduces dimensionality while preserving variance.
+                Example: Reducing features in a high-dimensional stock market dataset.
+                Use Case: Stock price analysis.
+            t-SNE: 
+                Defn: A non-linear dimensionality reduction technique.
+                Example: Visualizing high-dimensional image data.
+                Use Case: Image recognition for feature visualization.
+            Linear Discriminant Analysis (LDA): 
+                Defn: A classification method that reduces dimensions by finding the linear combinations of features.
+                Example: Face recognition.
+                Use Case: Security systems using facial recognition.
+
+    4. Reinforcement Learning: 
+        Defn: Reinforcement learning is based on agents taking actions in an environment to maximize cumulative rewards.
+        Q-Learning:
+            Defn: A model-free RL algorithm where an agent learns a policy to maximize reward.
+            Example: Training an agent to play video games.
+            Use Case: Game AI for automated playing agents.
+        Deep Q-Network (DQN): 
+            Defn: A neural network combined with Q-Learning for more complex tasks.
+            Example: Self-driving cars learning to navigate through traffic.
+            Use Case: Autonomous vehicle navigation.
+        Actor-Critic Methods: 
+            Defn: Combines policy learning with value learning for more stable learning.
+            Example: Robot control in manufacturing environments.
+            Use Case: Robotics for precise manufacturing tasks.
+
+
+Resouce Link: https://www.kaggle.com/code/kanncaa1/machine-learning-tutorial-for-beginners
+
